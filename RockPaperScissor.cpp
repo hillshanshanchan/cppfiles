@@ -1,6 +1,6 @@
 #include <iostream>
-#include <cstdlib> // For std::rand() and std::srand()
-#include <ctime>   // For std::time()
+#include <cstdlib> // For rand() and srand()
+#include <ctime>   // For time()
 #include <string>
 using namespace std;
 
@@ -83,7 +83,7 @@ string determineWinner(const Player& player1, const Player& player2){
 int main()
 {
     srand(static_cast<unsigned int>(time(0)));
-    HumanPlayer player1("Player");
+    HumanPlayer player1("Shan");
     Computer computer1;
     
     player1.makeChoice();
